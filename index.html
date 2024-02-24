@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Blooger</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+<body>
+    <header class="navigation fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-white">
+                <a class="navbar-brand order-1" href="index.html">
+                    <img class="img-fluid" width="120px" src="img/logo.png" alt="Reader | Hugo Personal Blog Template">
+                </a>
+                <div class="collapse navbar-collapse text-center order-lg-2 order-3" id="navigation">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Homepage <i class="fa fa-angle-down ml-1"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="about.html" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                About <i class="fa fa-angle-down ml-1"></i>
+                            </a>
+                            <div class="dropdown-menu">
+              
+                              <a class="dropdown-item" href="orange.html" target="_blank">Oranges</a>
+                              <a class="dropdown-item" href="apple.html" target="_blank">Apple</a>
+                              <a class="dropdown-item" href="bananna.html" target="_blank">Bananna</a>
+                              
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <div class="order-2 order-lg-3 d-flex align-items-center">
+                            <select class="m-2 border-0 bg-transparent" id="select-language">
+                                <option id="en" value="" selected>English</option>
+                                <option id="fr" value="">Urdu</option>
+                            </select>
+                            <!-- Search -->
+                            <form class="search-bar">
+                                <input id="search-query" name="s" type="search" placeholder="Type &amp; Hit Enter...">
+                                
+                            </form>
+
+                            <button class="navbar-toggler border-0 order-1" type="button" data-toggle="collapse"
+                                data-target="#navigation">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+
+            </nav>
+        </div>
+    </header>
+    <!-- start of banner -->
+    <div class="banner text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 mx-auto">
+              <h1 class="mb-5">Healty Food to live a healthier Life <br>In the future</h1>
+              <!-- <ul class="list-inline widget-list-inline">
+                <li class="list-inline-item"><a href="#">Fish</a></li>
+                <li class="list-inline-item"><a href="#">Food</a></li>
+                <li class="list-inline-item"><a href="#">Nice</a></li>
+                <li class="list-inline-item"><a href="#">Recipe</a></li>
+                <li class="list-inline-item"><a href="#">Season</a></li>
+                <li class="list-inline-item"><a href="#">Taste</a></li>
+                <li class="list-inline-item"><a href="#">Tasty</a></li>
+                <li class="list-inline-item"><a href="#">Vlog</a></li>
+                <li class="list-inline-item"><a href="#">Wow</a></li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    
+<!-- End  of banner -->
+<section class="section pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-5">
+                <h2 class="h5 section-title">Nutritious For Health</h2>
+                <article class="card">
+                    <div class="post-silder silder-sm">
+                        <img src="img/Apple.webp" alt="post-thumb" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="h4 mb-3"><a class="post-title" href="index.html">Apples are an incredibly nutritious fruit that offers multiple health benefits. They're rich in fiber and antioxidants. </a></h3>
+                        <ul class="card-meta list-inline">
+                          <li class="list-inline-item">
+                            <a href="index.html" class="card-meta-author">
+                              <img src="img/feed back img.jpg">
+                              <span>Alexendar</span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="fa fa-timer"></i>2 Min To Read
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="fa fa-calendar"></i>1 june, 2023
+                          </li>
+                          <li class="list-inline-item">
+                            <ul class="card-meta-tag list-inline">
+                              <li class="list-inline-item"><a href="post.html">Color</a></li>
+                              <li class="list-inline-item"><a href="post.html">Recipe</a></li>
+                              <li class="list-inline-item"><a href="post.html">Fruit</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <p>Eating them is linked to a lower risk of many chronic conditions, including diabetes, heart disease, and cancer.</p>
+                        <a href="post.html" class="btn btn-outline-primary">Read More</a>
+                </article>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <h2 class="h5 section-title">Trending Food</h2>
+                
+                <article class="card mb-4">
+                  <div class="card-body d-flex">
+                    <img class="card-img-sm" src="img/Onine.jpg">
+                    <div class="ml-3">
+                      <h4><a href="index.html" class="post-title">Rich in antioxidants and fiber, they are great for brain health and reducing inflammation.</a></h4>
+                      <ul class="card-meta list-inline mb-0">
+                        <li class="list-inline-item mb-0">
+                          <i class="fa fa-calendar"></i>1 june, 2023
+                        </li>
+                        <li class="list-inline-item mb-0">
+                          <i class="fa fa-timer"></i>2 Min To Read
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+                <article class="card mb-4">
+                    <div class="card-body d-flex">
+                      <img class="card-img-sm" src="img/img 3.jpg">
+                      <div class="ml-3">
+                        <h4><a href="index.html" class="post-title">High in fiber and vitamin C, they promote heart health and aid in digestion.</a></h4>
+                        <ul class="card-meta list-inline mb-0">
+                          <li class="list-inline-item mb-0">
+                            <i class="fa fa-calendar"></i>1 june, 2023
+                          </li>
+                          <li class="list-inline-item mb-0">
+                            <i class="fa fa-timer"></i>2 Min To Read
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                  
+                  <article class="card mb-4">
+                    <div class="card-body d-flex">
+                      <img class="card-img-sm" src="img/img 4.jpg">
+                      <div class="ml-3">
+                        <h4><a href="index.html" class="post-title">Packed with vitamin C, folate, and antioxidants, they support immune function and skin health.</a></h4>
+                        <ul class="card-meta list-inline mb-0">
+                          <li class="list-inline-item mb-0">
+                            <i class="fa fa-calendar"></i>1 june, 2023
+                          </li>
+                          <li class="list-inline-item mb-0">
+                            <i class="fa fa-timer"></i>2 Min To Read
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                  
+        </div>
+        
+      <div class="col-lg-4 mb-5">
+        <h2 class="h5 section-title">Popular Food </h2>
+        
+        <article class="card">
+          <div class="post-slider slider-sm">
+            <img src="img/img5.jpg" class="card-img-top" alt="post-thumb">
+          </div>
+          <div class="card-body">
+            <h3 class="h4 mb-3"><a class="post-title" href="index.html">Bananas are well-known for their high potassium content.</a></h3>
+            <ul class="card-meta list-inline">
+              <li class="list-inline-item">
+                <a href="index.html" class="card-meta-author">
+                  <img src="img/feed back img2.jpg" alt="Kate Stone">
+                  <span>Kate Stone</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <i class="fa fa-timer"></i>2 Min To Read
+              </li>
+              <li class="list-inline-item">
+                <i class="fa fa-calendar"></i>1 june, 2023
+              </li>
+              <li class="list-inline-item">
+                <ul class="card-meta-tag list-inline">
+                  <li class="list-inline-item"><a href="post.html">Healty</a></li>
+                  <li class="list-inline-item"><a href="post.html">Food</a></li>
+                  <li class="list-inline-item"><a href="post.html">Tastey</a></li>
+                </ul>
+              </li>
+            </ul>
+            <p>Good source of potassium, vitamin B6, and dietary fiber, providing energy and supporting heart health. </p>
+            <a href="post.html" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-12">
+        <div class="border-bottom border-default"></div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+
+</section>
+
+<section class="section-sm">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8  mb-5 mb-lg-0">
+    <h2 class="h5 section-title">Recent Post</h2>
+    <article class="card mb-4">
+    <div class="post-slider">
+        <img src="img/strawberries.jpg" class="card-img-top" alt="post-thumb">
+        
+    </div>
+    <div class="card-body">
+        <h3 class="mb-3"><a class="post-title" href="post-elements.html">Rich in antioxidants, vitamins, and fiber, berries are known for their anti-inflammatory properties and can support heart health..</a></h3>
+        <ul class="card-meta list-inline">
+        <li class="list-inline-item">
+            <a href="post.html" class="card-meta-author">
+            <img src="img/feed back img 5.webp" alt="John Doe">
+            <span>John Doe</span>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <i class="fa fa-timer"></i>3 Min To Read
+        </li>
+        <li class="list-inline-item">
+            <i class="fa fa-calendar"></i>15 May, 2023
+        </li>
+        <li class="list-inline-item">
+            <ul class="card-meta-tag list-inline">
+            <li class="list-inline-item"><a href="post.html">Health</a></li>
+            <li class="list-inline-item"><a href="post.html">Tasty</a></li>
+            </ul>
+        </li>
+        </ul>
+        <p>At titled above, delicious organic strawberries should be easier to locate. However, if not in season it's very possible to receive a substandard product and mine were simply not ripened enough. I've bought them in the past him Whole Foods and had nothing but praise in regards to the quality, flavor and appeal of this fruit and the only fruit that wears it's seeds on the exterior! I'm sure next time I'm be nearer in season and they'll taste significantly better. Until then I'm setting m awarding 2 of 5 Stars as they should have never been delivered without first asking me by phone!</p>
+        <a href="post-elements.html" class="btn btn-outline-primary">Read More</a>
+    </div>
+    </article>
+  
+    <article class="card mb-4">
+    <div class="post-slider">
+        <img src="img/Kiwi.jpg" class="card-img-top" alt="post-thumb">
+    </div>
+    <div class="card-body">
+        <h3 class="mb-3"><a class="post-title" href="post.html">Kiwis are packed with vitamin C, vitamin K, fiber, and antioxidants. They are known for their digestive benefits, immune support, and promoting healthy skin.</a></h3>
+        <ul class="card-meta list-inline">
+        <li class="list-inline-item">
+            <a href="post.html" class="card-meta-author">
+            <img src="img/feed back img6.jpg">
+            <span>Mark Dinn</span>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <i class="fa fa-timer"></i>3 Min To Read
+        </li>
+        <li class="list-inline-item">
+            <i class="fa fa-calendar"></i>15 May, 2023
+        </li>
+        <li class="list-inline-item">
+            <ul class="card-meta-tag list-inline">
+            <li class="list-inline-item"><a href="post.html">Health</a></li>
+            <li class="list-inline-item"><a href="post.html">Tasty</a></li>
+            </ul>
+        </li>
+        </ul>
+        <p>They are really good and good for sleeping,
+          I eat, that an a hard boiled Egg at least an Hour before I go to Bed, And sleep the whole night through..</p>
+        <a href="post-details.html" class="btn btn-outline-primary">Read More</a>
+    </div>
+    </article>
+    <article class="card mb-4">
+      <div class="post-slider">
+          <img src="img/Oranges.jpg" class="card-img-top" alt="post-thumb">
+      </div>
+      <div class="card-body">
+          <h3 class="mb-3"><a class="post-title" href="post.html">Packed with vitamin C, oranges are great for immune support, collagen production, and overall skin health. They also provide dietary fiber and other essential nutrients.</a></h3>
+          <ul class="card-meta list-inline">
+          <li class="list-inline-item">
+              <a href="post.html" class="card-meta-author">
+              <img src="img/feed back img6.jpg">
+              <span>Mark Dinn</span>
+              </a>
+          </li>
+          <li class="list-inline-item">
+              <i class="fa fa-timer"></i>3 Min To Read
+          </li>
+          <li class="list-inline-item">
+              <i class="fa fa-calendar"></i>15 May, 2023
+          </li>
+          <li class="list-inline-item">
+              <ul class="card-meta-tag list-inline">
+              <li class="list-inline-item"><a href="post.html">Health</a></li>
+              <li class="list-inline-item"><a href="post.html">Tasty</a></li>
+              </ul>
+          </li>
+          </ul>
+          <p>fresh juicy sweet, a must have at my house during cold season.</p>
+          <a href="post-details.html" class="btn btn-outline-primary">Read More</a>
+      </div>
+      </article>
+    
+  
+    
+    
+     <ul class="pagination justify-content-center">
+      <li class="page-item page-item active ">
+          <a href="#!" class="page-link">1</a>
+      </li> 
+   
+    </ul>
+  </div>
+        <aside class="col-lg-4 sidebar-home">
+    <!-- Search -->
+    <div class="widget">
+      <h4 class="widget-title"><span>Search</span></h4>
+      <form action="#!" class="widget-search">
+        <input class="mb-3" id="search-query" name="s" type="search" placeholder="Type &amp; Hit Enter...">
+        <i class="fa fa-search"></i>
+        <button type="submit" class="btn btn-primary btn-block">Search</button>
+      </form>
+    </div>
+  
+    <!-- about me -->
+    <div class="widget widget-about">
+      <h4 class="widget-title">Hi, I am Maria!</h4>
+      <img class="img-fluid" src="img/Feed back img 4.jpg" alt="Themefisher">
+      <p>It's the people that make this a great place to work. But a close second is the meaningful and impact work that is being done to improve population health.</p>
+      <ul class="list-inline social-icons mb-3">
+        
+        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+        
+        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+        
+        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        
+        <li class="list-inline-item"><a href="#"><i class="fa fa-github"></i></a></li>
+        
+        <li class="list-inline-item"><a href="#"><i class="fa fa-youtube"></i></a></li>
+        
+      </ul>
+      <a href="about-me.html" class="btn btn-primary mb-2">About me</a>
+    </div>
+    
+    <!-- Promotion -->
+    <div class="promotion">
+      <img src="img/promotion.jpg" class="img-fluid w-100">
+      <div class="promotion-content">
+        <h5 class="text-dark mb-3">Create Stunning Website!!</h5>
+        <p class="text-dark mb-4">Lorem ipsum dolor sit amet, consectetur sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit ornare turpis posuere.</p>
+        <a href="#" class="btn btn-primary">Get Started</a>
+      </div>
+    </div>
+  <!--Promotion End  -->
+    <!-- Search -->
+    
+    <div class="widget">
+      <h4 class="widget-title"><span>Never Miss A News</span></h4>
+      <form action="#!" method="post" name="mc-embedded-subscribe-form" target="_blank"
+        class="widget-search">
+        <input class="mb-3" id="search-query" name="s" type="search" placeholder="Your Email Address">
+        <i class="fa fa-email"></i>
+        <button type="submit" class="btn btn-primary btn-block" name="subscribe">Subscribe now</button>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_463ee871f45d2d93748e77cad_a0a2c6d074" tabindex="-1">
+        </div>
+      </form>
+    </div>
+  
+    <!-- categories -->
+    <div class="widget widget-categories">
+      <h4 class="widget-title"><span>Categories</span></h4>
+      <ul class="list-unstyled widget-list">
+        <li><a href="tags.html" class="d-flex">Creativity <small class="ml-auto">(4)</small></a></li>
+        <li><a href="tags.html" class="d-flex">Blogs <small class="ml-auto">(1)</small></a></li>
+        <li><a href="tags.html" class="d-flex">Health <small class="ml-auto">(1)</small></a></li>
+        <li><a href="tags.html" class="d-flex">Food <small class="ml-auto">(1)</small></a></li>
+        <li><a href="tags.html" class="d-flex">Strength  <small class="ml-auto">(1)</small></a></li>
+        <li><a href="tags.html" class="d-flex">Natural <small class="ml-auto">(3)</small></a></li>
+        
+      </ul>
+    </div><!-- tags -->
+    <div class="widget">
+      <h4 class="widget-title"><span>Tags</span></h4>
+      <ul class="list-inline widget-list-inline widget-card">
+        <li class="list-inline-item"><a href="tags.html">Fish</a></li>
+        <li class="list-inline-item"><a href="tags.html">Food</a></li>
+        <li class="list-inline-item"><a href="tags.html">Nice</a></li>
+        <li class="list-inline-item"><a href="tags.html">Recipe</a></li>
+        <li class="list-inline-item"><a href="tags.html">Season</a></li>
+        <li class="list-inline-item"><a href="tags.html">Taste</a></li>
+        <li class="list-inline-item"><a href="tags.html">Tasty</a></li>
+        <li class="list-inline-item"><a href="tags.html">Vlog</a></li>
+        <li class="list-inline-item"><a href="tags.html">Wow</a></li>
+      </ul>
+    </div><!-- recent post -->
+    <div class="widget">
+      <h4 class="widget-title">Recent Post</h4>
+  
+      <!-- post-item -->
+      <article class="widget-card">
+        <div class="d-flex">
+          <img class="card-img-sm" src="img/Kiwi.jpg">
+          <div class="ml-3">
+            <h5><a class="post-title" href="#">Kiwi.</a></h5>
+            <ul class="card-meta list-inline mb-0">
+              <li class="list-inline-item mb-0">
+                <i class="fa fa-calendar"></i>1 june, 2023
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+      
+      <article class="widget-card">
+        <div class="d-flex">
+          <img class="card-img-sm" src="img/Onine.jpg">
+          <div class="ml-3">
+            <h5><a class="post-title" href="post.html">Blueberries</a></h5>
+            <ul class="card-meta list-inline mb-0">
+              <li class="list-inline-item mb-0">
+                <i class="fa fa-calendar"></i>1 june, 2023
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+      
+      <article class="widget-card">
+        <div class="d-flex">
+          <img class="card-img-sm" src="img/img 4.jpg">
+          <div class="ml-3">
+            <h5><a class="post-title" href="post.html">Oranges</a></h5>
+            <ul class="card-meta list-inline mb-0">
+              <li class="list-inline-item mb-0">
+                <i class="fa fa-calendar"></i>1 june, 2023
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </div>
+  
+    <!-- Social -->
+    <div class="widget">
+      <h4 class="widget-title"><span>Social Links</span></h4>
+      <ul class="list-inline widget-social">
+        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fa fa-github"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fa fa-youtube"></i></a></li>
+      </ul>
+    </div>
+  </aside>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <svg class="footer-border" height="214" viewBox="0 0 2204 214" fill="none" xmlns="">
+        <path d="M2203 213C2136.58 157.994 1942.77 -33.1996 1633.1 53.0486C1414.13 114.038 1200.92 188.208 967.765 118.127C820.12 73.7483 263.977 -143.754 0.999958 158.899"
+        stroke-width="2" />
+    </svg>
+    
+    
+    
+    <div class="container">
+        <div class="row align-items-center">
+        <div class="col-md-5 text-center text-md-left mb-4">
+            <ul class="list-inline footer-list mb-0">
+              <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+              <li class="list-inline-item"><a href="#">Terms Conditions</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2 text-center mb-4">
+            <a href="index.html"><img class="img-fluid" width="100px" src="img/logo.png" alt="Reader | Hugo Personal Blog Template"></a>
+        </div>
+        <div class="col-md-5 text-md-right text-center mb-4">
+            <ul class="list-inline footer-list mb-0">
+            
+            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+            
+            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+            
+            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            
+            <li class="list-inline-item"><a href="#"><i class="fa fa-github"></i></a></li>
+            
+            <li class="list-inline-item"><a href="#"><i class="fa fa-youtube"></i></a></li>
+            
+            </ul>
+        </div>
+        <div class="col-12">
+            <div class="border-bottom border-default"></div>
+        </div>
+        </div>
+    </div>
+    </footer>
+
+
+
+<!-- Bootstrap JS -->
+<script src="bootstrap/bootstrap.min.js"></script>
+
+</body>
+
+</html>
